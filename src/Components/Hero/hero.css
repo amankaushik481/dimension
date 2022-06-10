@@ -1,0 +1,67 @@
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.xyz {
+  margin-top: 2rem;
+  width: 600px;
+  overflow: hidden;
+}
+.rotate {
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.rotated {
+  position: absolute;
+  background: none;
+  margin-top: -550px;
+  margin-left: 60px;
+  animation: rotated 10s infinite linear;
+}
+
+@keyframes rotated {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+svg {
+  background: none;
+}
+.hero__cube_container {
+  margin-right: 3rem;
+  overflow: hidden;
+}
+h1 {
+  font-size: 72px;
+}
+@media only screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero__cube_container {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .xyz {
+    width: 350px;
+  }
+  .rotated {
+    width: 280px;
+    height: 280px;
+    margin-top: -325px;
+    margin-left: 40px;
+  }
+}
