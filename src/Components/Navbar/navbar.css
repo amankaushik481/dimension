@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.navbar__logo_container{
+    cursor: pointer;
+}
+
+.navbar__logo_container h3{
+    line-height: 0%;
+}
+
+.navbar__menu_container{
+    display: flex;
+}
+.navbar__list{
+    list-style: none;
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+.navbar__link{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
