@@ -57,11 +57,13 @@ h1 {
 @media only screen and (max-width: 600px) {
   .xyz {
     width: 350px;
+    overflow: hidden;
   }
   .rotated {
     width: 280px;
     height: 280px;
     margin-top: -325px;
     margin-left: 40px;
+    overflow: hidden;
   }
 }
