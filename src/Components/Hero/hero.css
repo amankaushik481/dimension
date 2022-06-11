@@ -3,15 +3,13 @@
   justify-content: space-around;
   align-items: center;
 }
-.xyz {
+.svg__container {
   margin-top: 2rem;
   width: 600px;
-  overflow: hidden;
 }
-.rotate {
+.circle__svg {
   animation: rotation 10s infinite linear;
 }
-
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -20,7 +18,7 @@
     transform: rotate(359deg);
   }
 }
-.rotated {
+.cube {
   position: absolute;
   background: none;
   margin-top: -550px;
@@ -35,9 +33,6 @@
   to {
     transform: rotate(0deg);
   }
-}
-svg {
-  background: none;
 }
 .hero__cube_container {
   margin-right: 3rem;
@@ -55,11 +50,11 @@ h1 {
   }
 }
 @media only screen and (max-width: 600px) {
-  .xyz {
+  .svg__container {
     width: 350px;
     overflow: hidden;
   }
-  .rotated {
+  .cube {
     width: 280px;
     height: 280px;
     margin-top: -325px;

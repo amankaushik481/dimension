@@ -8,7 +8,7 @@ const SVG = () => {
       viewBox="0 0 1194 1192"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="rotate"
+      className="circle__svg"
     >
       <g opacity="0.2">
         <circle
@@ -94,10 +94,10 @@ const Hero = () => {
         <h1>Coming Soon!</h1>
       </div>
       <div className="hero__cube_container">
-        <div className="xyz">
+        <div className="svg__container">
           <SVG />
         </div>
-        <img src={cube} className="rotated" alt="cube" />
+        <img src={cube} className="cube" alt="cube" />
       </div>
     </div>
   );
