@@ -41,7 +41,6 @@
     height: 101%;
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
-    transition: 0.5s;
     z-index: -1;
   }
   .navbar__item,
