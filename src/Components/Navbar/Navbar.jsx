@@ -6,23 +6,23 @@ const Menu = () => {
   return (
     <ul className="navbar__list">
       <li className="navbar__item">
-        <a href="#home" className="navbar__link active">
+        <a href="/" className="navbar__link active">
           Home
         </a>
       </li>
       <li className="navbar__item">
-        <a href="#about" className="navbar__link">
-          About
+        <a href="/" className="navbar__link">
+          Vision
         </a>
       </li>
       <li className="navbar__item">
-        <a href="#skills" className="navbar__link">
-          Blog
+        <a href="/" className="navbar__link">
+          Roadmap
         </a>
       </li>
       <li className="navbar__item">
-        <a href="#contact" className="navbar__link">
-          Contact
+        <a href="/" className="navbar__link">
+          Invest
         </a>
       </li>
     </ul>
