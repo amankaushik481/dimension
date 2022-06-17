@@ -21,7 +21,7 @@ const Menu = () => {
         </a>
       </li>
       <li className="navbar__item">
-        <a href="/" className="navbar__link">
+        <a href="/whitepaper" className="navbar__link">
           WHITEPAPER
         </a>
       </li>

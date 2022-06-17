@@ -1,11 +1,30 @@
 import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useRoutes,
+} from "react-router-dom";
 import "./App.css";
-import { Homepage } from "./Pages";
+
+import { Homepage, Whitepaper } from "./Pages";
+
+const AppRoute = () => {
+  let routes = useRoutes([
+    { path: "/", element: <Homepage /> },
+    { path: "/whitepaper", element: <Whitepaper /> },
+    { path: "/", element: <Homepage /> },
+    { path: "/", element: <Homepage /> },
+  ]);
+  return routes;
+};
 
 const App = () => {
   return (
     <div>
-      <Homepage />
+      <Router>
+        <AppRoute />
+      </Router>
     </div>
   );
 };
