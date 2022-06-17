@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
 
@@ -30,11 +31,16 @@ const Menu = () => {
 };
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/");
+  };
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className="navbar">
       <div className="navbar__logo_container">
-        <h3>DIMENSION</h3>
+        <h3 onClick={handleClick}>DIMENSION</h3>
       </div>
       <div className="navbar__menu_container">
         <Menu />
