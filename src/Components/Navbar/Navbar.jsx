@@ -7,22 +7,22 @@ const Menu = () => {
     <ul className="navbar__list">
       <li className="navbar__item">
         <a href="/" className="navbar__link active">
-          Home
+          HOME
         </a>
       </li>
       <li className="navbar__item">
         <a href="/" className="navbar__link">
-          Vision
+          VISION
         </a>
       </li>
       <li className="navbar__item">
         <a href="/" className="navbar__link">
-          Roadmap
+          ROADMAP
         </a>
       </li>
       <li className="navbar__item">
         <a href="/" className="navbar__link">
-          Invest
+          WHITEPAPER
         </a>
       </li>
     </ul>
@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar__logo_container">
-        <h3>Dimension</h3>
+        <h3>DIMENSION</h3>
       </div>
       <div className="navbar__menu_container">
         <Menu />

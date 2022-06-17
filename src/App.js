@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import { Navbar, Hero } from "./Components";
+import { Homepage } from "./Pages";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Hero />
+      <Homepage />
     </div>
   );
 };
