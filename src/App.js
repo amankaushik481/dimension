@@ -11,7 +11,7 @@ import { Homepage, Whitepaper } from "./Pages";
 
 const AppRoute = () => {
   let routes = useRoutes([
-    { path: "/", element: <Homepage /> },
+    { path: "/", element: <Whitepaper /> },
     { path: "/whitepaper", element: <Whitepaper /> },
     { path: "/", element: <Homepage /> },
     { path: "/", element: <Homepage /> },
