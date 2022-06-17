@@ -11,10 +11,10 @@ import { Homepage, Whitepaper } from "./Pages";
 
 const AppRoute = () => {
   let routes = useRoutes([
-    { path: "/", element: <Whitepaper /> },
+    { path: "/home", element: <Whitepaper /> },
     { path: "/whitepaper", element: <Whitepaper /> },
-    { path: "/", element: <Homepage /> },
-    { path: "/", element: <Homepage /> },
+    // { path: "/", element: <Homepage /> },
+    // { path: "/", element: <Homepage /> },
   ]);
   return routes;
 };
